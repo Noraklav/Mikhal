@@ -10,10 +10,11 @@ export const Header = () => {
       <img className='logo' src={logo} alt="Mikhal" />
 
       <ul className="menu__container">
-        <li className="item">Celulares</li>
-        <li className="item">Notebooks</li>
-        <li className="item">Televisores</li>
-        <li className="item">Accesorios</li>
+        <a href="#celulares" className="item">Celulares</a>
+        <a href="#notebooks" className="item">Notebooks</a>
+        <a href="#televisores" className="item">Televisores</a>
+        <a href="#accesorios" className="item">Accesorios</a>
+        
       </ul>
 
       <div className="carrito__container">
