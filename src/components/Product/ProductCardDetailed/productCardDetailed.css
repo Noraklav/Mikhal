@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1320px;
-  height: 925px;
+  max-width: 1320px;
+  /* height: 925px; */
+  padding: 40px 0;
   border-radius: 24px;
   background: var(--white);
   margin: 20px auto;
@@ -17,122 +18,13 @@
   justify-content: flex-start;
 }
 
-
-/* Estilos carrusel de imagenes */
-.image-gallery-content {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  gap: 10px;
-}
-
-.image-gallery-image {
-  width: 500px;
-  height: 500px;
-  border-radius: 48px;
-}
-
-/* Thumbnails */
-.image-gallery-thumbnails .image-gallery-thumbnails-container {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center;
-  gap: 10px;
-}
-
-.image-gallery-thumbnail .image-gallery-thumbnail-image {
-  width: 90px !important;
-  height: 90px !important;
-  border-radius: 16px;
+.productDetails .productImage {
+  width: 560px;
+  height: 560px;
   object-fit: cover;
+  box-shadow: 5px 5px 5px var(--gray);
 }
 
-.image-gallery-thumbnail:focus, 
-.image-gallery-thumbnail .image-gallery-thumbnail-image:focus-visible,
-.image-gallery-thumbnail .image-gallery-thumbnail-image:hover,
-.image-gallery-thumbnail,
-.image-gallery-thumbnail:focus,
-.image-gallery-thumbnail:hover {
-  margin: 0;
-  border: 0 !important;
-  outline: 0 !important;
-}
-
-.image-gallery-thumbnail.active .image-gallery-thumbnail-image, 
-.image-gallery-thumbnail.active .image-gallery-thumbnail-image {
-  filter: drop-shadow(2px 2px 0px var(--secondary));
-}
-
-/* Fin Thumbnails */
-
-.image-gallery-thumbnails-wrapper.thumbnails-swipe-horizontal {
-  height: 500px;
-  width: 110px;
-  overflow-y: auto;
-}
-
-.image-gallery-thumbnails-wrapper.thumbnails-swipe-horizontal::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  background: var(--gray);
-}
-
-.image-gallery-thumbnails-wrapper.thumbnails-swipe-horizontal::-webkit-scrollbar {
-  width: 7px;
-  border-radius: 50px;
-  background: var(--dark-gray);
-}
-
-/* Dots y Arrows */
-.image-gallery-bullets {
-  bottom: 0;
-  transform: translateY(50px);
-}
-
-.image-gallery-bullets .image-gallery-bullet,
-.image-gallery-bullets .image-gallery-bullet.active {
-  box-shadow: unset !important;
-  width: 15px !important;
-  height: 15px !important;
-}
-
-.image-gallery-bullets .image-gallery-bullet {
-  background: var(--gray) !important;
-  border: 2px solid var(--gray-main) !important;
-}
-
-.image-gallery-bullets .image-gallery-bullet.active {
-  background: var(--secondary) !important;
-  border: 2px solid var(--dark-gray) !important;
-}
-
-.image-gallery-icon {
-  color: var(--primary) !important;
-  filter: unset !important;
-}
-
-.image-gallery-left-nav, .image-gallery-right-nav {
-  top: unset !important;
-  bottom: 0 !important;
-  z-index: 999 !important;
-}
-
-.image-gallery-left-nav {
-  transform: translate(120px, 90px) !important;
-}
-
-.image-gallery-right-nav {
-  transform: translate(-120px, 90px) !important;
-}
-
-.image-gallery-left-nav .image-gallery-svg,
-.image-gallery-right-nav .image-gallery-svg {
-  background: var(--secondary);
-  border-radius: 50px;
-  border: 3px solid var(--dark-gray);
-  width: 25px !important;
-  height: 25px !important;
-}
-/* Fin Dots y Arrows */
 
 .productDetails {
   gap: 60px;

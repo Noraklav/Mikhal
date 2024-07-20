@@ -9,14 +9,15 @@
 }
 
 .banner__container .titular {
-  font-size: 150px;
+  font-size: 100px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  color: var(--dark-gray);
+  color: var(--primary);
 }
 
 .banner__container .titular .prop__text {
-  color: var(--primary);
+  color: var(--secondary);
+  filter: drop-shadow(3px 3px 1px var(--dark-gray));
 }

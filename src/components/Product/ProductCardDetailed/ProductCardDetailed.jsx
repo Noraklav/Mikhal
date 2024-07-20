@@ -1,45 +1,42 @@
 import React from 'react'
 import './productCardDetailed.css'
 import hearth from '../../../assets/ProductCardDetailed/me-gusta.png'
-import { CarruselImagenes } from './CarruselImagenes/CarruselImagenes';
 
-export const ProductCardDetailed = ({images}) => {
+export const ProductCardDetailed = ({images, name, precioActual, precioTachado, precioOff, storage, ram}) => {
 
   return (
     <section className='productContainer'>
       <div className="productDetails">
-        <CarruselImagenes images={images}/>
+        <img src={images} className='productImage' alt="" />
 
         {/* Datos del producto */}
         <div className="productDataContent">
           <span className='recienLlegado'>Recién llegado!</span>
           <div className="infoContainer">
-            <p className="productName">NOMBRE DEL PRODUCTO SUPER EPICARDO</p>
+            <p className="productName">{name}</p>
             <p className="productPrice">
-              <span className="tachado">$999.99</span>
+              <span className="tachado">${precioTachado}</span>
               <div className="actual__off">
-                <p className="actual">$799.99</p>
-                <span className='off'>25% OFF</span>
+                <p className="actual">${precioActual}</p>
+                <span className='off'>{precioOff}% OFF</span>
               </div>
             </p>
 
             <div className="filter__container">
               <p className='titularcito'>Almacenamiento</p>
               <div className="filters__buttons">
-                <button className='button' onClick={() =>{}}>256gb</button>
-                <button className='button active' onClick={() =>{}}>512gb</button>
-                <button className='button' onClick={() =>{}}>1tb</button>
-                <button className='button' onClick={() =>{}}>1tb</button>
+                {
+                  storage.map( (e) => <button className='button'>{e}</button>)
+                }
               </div>
             </div>
 
             <div className="filter__container">
               <p className='titularcito'>Memoria RAM</p>
               <div className="filters__buttons">
-                <button className='button' onClick={() =>{}}>8gb</button>
-                <button className='button' onClick={() =>{}}>16gb</button>
-                <button className='button active' onClick={() =>{}}>32gb</button>
-                <button className='button' onClick={() =>{}}>64gb</button>
+              {
+                  ram.map( (e) => <button className='button'>{e}</button>)
+                }
               </div>
             </div>
           </div>
