@@ -1,24 +1,33 @@
-import React from 'react'
+import { useParams } from 'react-router-dom'
+import productos from '../../../catalogo/productos'
 import './productCardDetailed.css'
 import hearth from '../../../assets/ProductCardDetailed/me-gusta.png'
 
-export const ProductCardDetailed = ({images, name, precioActual, precioTachado, precioOff, storage, ram}) => {
+export const ProductCardDetailed = () => {
+
+  const {id} = useParams()
+
+  console.log(productos);
+
+  const producto = productos.find(e => e.id === id)
+  
+
+  if(!producto){
+    return <h2>El producto no existe, gato</h2>
+  }
 
   return (
     <section className='productContainer'>
       <div className="productDetails">
-        <img src={images} className='productImage' alt="" />
+        <img src={producto.imagen} className='productImage' alt="Imagen" />
 
         {/* Datos del producto */}
         <div className="productDataContent">
-          <span className='recienLlegado'>Recién llegado!</span>
           <div className="infoContainer">
-            <p className="productName">{name}</p>
+            <p className="productName">{producto.nombre}</p>
             <p className="productPrice">
-              <span className="tachado">${precioTachado}</span>
               <div className="actual__off">
-                <p className="actual">${precioActual}</p>
-                <span className='off'>{precioOff}% OFF</span>
+                <p className="actual">${producto.precio_base}</p>
               </div>
             </p>
 
@@ -26,7 +35,7 @@ export const ProductCardDetailed = ({images, name, precioActual, precioTachado, 
               <p className='titularcito'>Almacenamiento</p>
               <div className="filters__buttons">
                 {
-                  storage.map( (e) => <button className='button'>{e}</button>)
+                  producto.almacenamiento.map( (e) => <button className='button'>{e.opcion}</button>)
                 }
               </div>
             </div>
@@ -35,7 +44,7 @@ export const ProductCardDetailed = ({images, name, precioActual, precioTachado, 
               <p className='titularcito'>Memoria RAM</p>
               <div className="filters__buttons">
               {
-                  ram.map( (e) => <button className='button'>{e}</button>)
+                  producto.ram.map( (e) => <button className='button'>{e.opcion}</button>)
                 }
               </div>
             </div>
@@ -51,7 +60,6 @@ export const ProductCardDetailed = ({images, name, precioActual, precioTachado, 
 
         </div>
       </div>
-
     </section>
   )
 }
