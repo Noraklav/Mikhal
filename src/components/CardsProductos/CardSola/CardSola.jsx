@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 export const CardSola = ({nombre, imagen, precio_base, id, alt__img}) => {
 
-  console.log(imagen);
-
   return (
     <div className='card'>
     <Link to={`/productos/${id}`}>
@@ -19,4 +17,3 @@ export const CardSola = ({nombre, imagen, precio_base, id, alt__img}) => {
     </div>
   )
 }
-

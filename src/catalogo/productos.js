@@ -8,7 +8,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 45,
     "categoria": "Gamer",
-    "imagen": './imagenes/ID_1.jpg',
+    "imagen": "/public/catalogo/ID_1.jpg",
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -17,7 +17,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ],
     "ram": [
@@ -26,8 +26,8 @@ const productos = [
         "ajuste_precio": 0
       },
       {
-        "opcion": "64",
-        "ajuste_precio": 150
+        "opcion": "64GB",
+        "ajuste_precio": 20
       }
     ]
   },
@@ -39,7 +39,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 23,
     "categoria": "Gamer",
-    "imagen": './imagenes/ID_2.jpg',
+    "imagen": '/public/catalogo/ID_2.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -48,7 +48,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ],
     "ram": [
@@ -58,11 +58,11 @@ const productos = [
       },
       {
         "opcion": "32GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "64GB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ]
   },
@@ -74,7 +74,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 19,
     "categoria": "Gamer",
-    "imagen": './imagenes/ID_3.jpg',
+    "imagen": '/public/catalogo/ID_3.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -83,11 +83,11 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "2TB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ],
     "ram": [
@@ -97,11 +97,11 @@ const productos = [
       },
       {
         "opcion": "32GB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       },
       {
         "opcion": "64GB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ]
   },
@@ -113,7 +113,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 43,
     "categoria": "Gamer",
-    "imagen": './imagenes/ID_4.jpg',
+    "imagen": '/public/catalogo/ID_4.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -122,7 +122,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ],
     "ram": [
@@ -132,11 +132,11 @@ const productos = [
       },
       {
         "opcion": "32GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "64GB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ]
   },
@@ -149,7 +149,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 39,
     "categoria": "Empresarial",
-    "imagen": './imagenes/ID_5.jpg',
+    "imagen": '/public/catalogo/ID_5.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -158,7 +158,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ],
     "ram": [
@@ -168,7 +168,7 @@ const productos = [
       },
       {
         "opcion": "32GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
     ]
   },
@@ -180,7 +180,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 14,
     "categoria": "Empresarial",
-    "imagen": './imagenes/ID_6.jpg',
+    "imagen": '/public/catalogo/ID_6.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -195,7 +195,7 @@ const productos = [
       },
       {
         "opcion": "64GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       }
     ]
   },
@@ -207,7 +207,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 13,
     "categoria": "Empresarial",
-    "imagen": './imagenes/ID_7.jpg',
+    "imagen": '/public/catalogo/ID_7.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -230,7 +230,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 96,
     "categoria": "Empresarial",
-    "imagen": './imagenes/ID_8.jpg',
+    "imagen": '/public/catalogo/ID_8.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -239,11 +239,11 @@ const productos = [
       },
       {
         "opcion": "512GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ],
     "ram": [
@@ -262,7 +262,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 70,
     "categoria": "Diseño",
-    "imagen": './imagenes/ID_9.jpg',
+    "imagen": '/public/catalogo/ID_9.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -285,7 +285,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 11,
     "categoria": "Diseño",
-    "imagen": './imagenes/ID_10.jpg',
+    "imagen": '/public/catalogo/ID_10.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -294,7 +294,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       }
     ],
     "ram": [
@@ -304,7 +304,7 @@ const productos = [
       },
       {
         "opcion": "64GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       }
     ]
   },
@@ -316,7 +316,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 91,
     "categoria": "Diseño",
-    "imagen": './imagenes/ID_11.jpg',
+    "imagen": '/public/catalogo/ID_11.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -325,7 +325,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 150
+        "ajuste_precio": 20
       }
     ],
     "ram": [
@@ -347,7 +347,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 10,
     "categoria": "Diseño",
-    "imagen": './imagenes/ID_12.jpg',
+    "imagen": '/public/catalogo/ID_12.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -356,7 +356,7 @@ const productos = [
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       }
     ],
     "ram": [
@@ -371,11 +371,11 @@ const productos = [
   {
     "id": 13,
     "nombre": "GATEWAY – RYZEN 3 3250U – SSD 128 GB – 4 GB RAM – 15.6″ FHD",
-    "precio_base": 501199,
+    "precio_base": 101199,
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
-    "stock": 50,
+    "stock": 10,
     "categoria": "Hogar",
-    "imagen": './imagenes/ID_13.jpg',
+    "imagen": '/public/catalogo/ID_13.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -398,7 +398,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 56,
     "categoria": "Hogar",
-    "imagen": './imagenes/ID_14.jpg',
+    "imagen": '/public/catalogo/ID_14.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -407,7 +407,7 @@ const productos = [
       },
       {
         "opcion": "512GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       }
     ],
     "ram": [
@@ -425,7 +425,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 72,
     "categoria": "Hogar",
-    "imagen": './imagenes/ID_15.jpg',
+    "imagen": '/public/catalogo/ID_15.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -434,11 +434,11 @@ const productos = [
       },
       {
         "opcion": "512GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ],
     "ram": [
@@ -448,7 +448,7 @@ const productos = [
       },
       {
         "opcion": "16GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
     ]
   },
@@ -460,7 +460,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 74,
     "categoria": "Hogar",
-    "imagen": './imagenes/ID_16.jpg',
+    "imagen": '/public/catalogo/ID_16.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -469,11 +469,11 @@ const productos = [
       },
       {
         "opcion": "512GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
       {
         "opcion": "1TB",
-        "ajuste_precio": 100
+        "ajuste_precio": 15
       }
     ],
     "ram": [
@@ -483,7 +483,7 @@ const productos = [
       },
       {
         "opcion": "16GB",
-        "ajuste_precio": 50
+        "ajuste_precio": 10
       },
     ]
   },
