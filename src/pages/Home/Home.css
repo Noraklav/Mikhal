@@ -1,0 +1,9 @@
+.cards__container-home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  margin: auto;
+}

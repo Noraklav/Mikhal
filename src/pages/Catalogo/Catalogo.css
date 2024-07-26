@@ -1,0 +1,54 @@
+.catalogo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalogo__container .titulo {
+  font-family: Rubik;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 0px;
+  margin: 70px auto 50px;
+}
+
+.catalogo__container .cards__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+.catalogo__container .row {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.catalogo__container .row .categoryButton {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--white);
+  transition: .1s ease-in-out all;
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 0 var(--secondary));
+}
+
+.catalogo__container .row .categoryButton:hover {
+  color: var(--primary);
+  background: var(--secondary);
+  filter: drop-shadow(3px 3px 0 var(--primary));
+}

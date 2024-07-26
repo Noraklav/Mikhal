@@ -14,20 +14,26 @@ export const ProductCardDetailed = () => {
     ram: producto.ram[0].opcion
   });
 
+  // "almacenamiento" y "ram"
+  const [storageSelected, setStorageSelected] = useState(producto.almacenamiento[0].opcion);
+  const [ramSelected, setRamSelected] = useState(producto.ram[0].opcion);
+
   // Selecciona el boton de almacenamiento y ram y los modifica
-  const handleClick = (option, type) => {
-    setSelectedOptions(prevOptions => ({...prevOptions, [type]: option}));
+  // type: "almacenamiento / ram"
+  // option: Valor del boton tocado
+  // arr: Dirije a "selectedOptions"
+  const handleClick = (option, type, price) => {
+    setSelectedOptions(arr => ({...arr, [type]: option}));
+    if(type=='almacenamiento') {
+      setStorageSelected(option)
+      console.log(type);
+    }
+    else if(type=='ram') {
+      setRamSelected(option)
+      console.log(type);
+    }
+
   };
-
-  // Muestra por consola el boton seleccionado
-  // useEffect(() => {
-  //   console.log('Opciones seleccionadas:', selectedOptions);
-  // }, [selectedOptions]);
-
-  console.log(selectedOptions);
-
-  console.log(selectedOptions.almacenamiento);
-  console.log(selectedOptions.ram);
 
   if(!producto){
     return <h2>El producto no existe, gato</h2>
@@ -66,12 +72,18 @@ export const ProductCardDetailed = () => {
                 }
               </div>
             </div>
+          
+            <div className="filters__selected">
+              <p className="storage">Almacenamiento: <span>{storageSelected}</span></p>
+              <p className="ram">Memoria RAM: <span>{ramSelected}</span></p>
+            </div>
           </div>
+
 
           <div className="buttonsActionsContent">
             <div className="cartFav">
               <button className='addCart'>Añadir al carrito</button>
-              <input type="number" min={1} max={producto.stock} className='addInput'/>
+              <input type="number" min={1} placeholder='0' max={producto.stock} className='addInput'/>
               <button className="addFav"><img src='../../../../public/me-gusta.png' alt="❤" /></button>
             </div>
             <button className="buyNow">Comprar Ahora</button>
