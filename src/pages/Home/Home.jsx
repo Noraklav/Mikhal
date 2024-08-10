@@ -8,6 +8,9 @@ export const Home = () => {
 
   const randomArr = [];
   
+  const mensaje = import.meta.env.VITE_MENSAJE
+  console.log(mensaje);
+
 
   
   while (randomArr.length < 5) {
@@ -22,6 +25,8 @@ export const Home = () => {
   return (
     <div>
       <Banner textito={'MIKHAL'}/>
+
+      { mensaje && <h2>{mensaje}</h2> }
 
       <div className="cards__container-home">
       {
