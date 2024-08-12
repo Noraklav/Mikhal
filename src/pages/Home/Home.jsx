@@ -9,9 +9,7 @@ export const Home = () => {
   const randomArr = [];
   
   const mensaje = import.meta.env.VITE_MENSAJE
-  console.log(mensaje);
-
-
+  // console.log(mensaje);
   
   while (randomArr.length < 5) {
     const randomNumber = Math.floor(Math.random() * 20);
@@ -26,7 +24,7 @@ export const Home = () => {
     <div>
       <Banner textito={'MIKHAL'}/>
 
-      { mensaje && <h2>{mensaje}</h2> }
+      {/* { mensaje && <h2>{mensaje}</h2> } */}
 
       <div className="cards__container-home">
       {

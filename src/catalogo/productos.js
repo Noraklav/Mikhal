@@ -8,7 +8,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 45,
     "categoria": "Gamer",
-    "imagen": "/public/catalogo/ID_1.jpg",
+    "imagen": "/catalogo/ID_1.jpg",
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -39,7 +39,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 23,
     "categoria": "Gamer",
-    "imagen": '/public/catalogo/ID_2.jpg',
+    "imagen": '/catalogo/ID_2.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -74,7 +74,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 19,
     "categoria": "Gamer",
-    "imagen": '/public/catalogo/ID_3.jpg',
+    "imagen": '/catalogo/ID_3.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -113,7 +113,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 43,
     "categoria": "Gamer",
-    "imagen": '/public/catalogo/ID_4.jpg',
+    "imagen": '/catalogo/ID_4.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -149,7 +149,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 39,
     "categoria": "Empresarial",
-    "imagen": '/public/catalogo/ID_5.jpg',
+    "imagen": '/catalogo/ID_5.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -180,7 +180,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 14,
     "categoria": "Empresarial",
-    "imagen": '/public/catalogo/ID_6.jpg',
+    "imagen": '/catalogo/ID_6.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -207,7 +207,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 13,
     "categoria": "Empresarial",
-    "imagen": '/public/catalogo/ID_7.jpg',
+    "imagen": '/catalogo/ID_7.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -230,7 +230,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 96,
     "categoria": "Empresarial",
-    "imagen": '/public/catalogo/ID_8.jpg',
+    "imagen": '/catalogo/ID_8.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -262,7 +262,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 70,
     "categoria": "Diseño",
-    "imagen": '/public/catalogo/ID_9.jpg',
+    "imagen": '/catalogo/ID_9.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -285,7 +285,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 11,
     "categoria": "Diseño",
-    "imagen": '/public/catalogo/ID_10.jpg',
+    "imagen": '/catalogo/ID_10.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -316,7 +316,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 91,
     "categoria": "Diseño",
-    "imagen": '/public/catalogo/ID_11.jpg',
+    "imagen": '/catalogo/ID_11.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -347,7 +347,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 10,
     "categoria": "Diseño",
-    "imagen": '/public/catalogo/ID_12.jpg',
+    "imagen": '/catalogo/ID_12.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -375,7 +375,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 10,
     "categoria": "Hogar",
-    "imagen": '/public/catalogo/ID_13.jpg',
+    "imagen": '/catalogo/ID_13.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -398,7 +398,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 56,
     "categoria": "Hogar",
-    "imagen": '/public/catalogo/ID_14.jpg',
+    "imagen": '/catalogo/ID_14.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -425,7 +425,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 72,
     "categoria": "Hogar",
-    "imagen": '/public/catalogo/ID_15.jpg',
+    "imagen": '/catalogo/ID_15.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
@@ -460,7 +460,7 @@ const productos = [
     "descripcion": 'Nibh montes orci fames aliquet quis sed sollicitudin nascetur aptent dictum, tempor malesuada eget est turpis dis pulvinar duis velit, cras vel lacus rhoncus class pharetra porttitor eros vehicula.',
     "stock": 74,
     "categoria": "Hogar",
-    "imagen": '/public/catalogo/ID_16.jpg',
+    "imagen": '/catalogo/ID_16.jpg',
     "alt__img": "ID_x",
     "almacenamiento": [
       {
